@@ -18,4 +18,4 @@ services:
     volumes:
       - zigbee2mqtt-data:/app/data
       - /run/udev:/run/udev:ro
-      - ./zigbee2mqtt.yaml:/app/data/configuration.yaml:ro
+      - ./zigbee2mqtt.yaml:/app/data/configuration.yaml
