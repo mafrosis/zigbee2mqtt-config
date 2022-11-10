@@ -1,0 +1,28 @@
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://ringil.eggs
+serial:
+  port: /dev/ttyAMA0
+  adapter: deconz
+frontend:
+  port: 8080
+advanced:
+  network_key:
+    - 28
+    - 108
+    - 101
+    - 111
+    - 193
+    - 194
+    - 65
+    - 6
+    - 13
+    - 69
+    - 20
+    - 73
+    - 224
+    - 195
+    - 73
+    - 186
