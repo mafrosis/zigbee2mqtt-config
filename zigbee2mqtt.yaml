@@ -1,5 +1,4 @@
 homeassistant: true
-permit_join: true
 mqtt:
   base_topic: zigbee2mqtt
   server: mqtt://ringil.eggs
@@ -26,3 +25,6 @@ advanced:
     - 195
     - 73
     - 186
+devices:
+  '0xa4c1386a74140d98':
+    friendly_name: '0xa4c1386a74140d98'
