@@ -40,4 +40,30 @@ advanced:
   legacy_availability_payload: false
 devices:
   '0xa4c1386a74140d98':
-    friendly_name: '0xa4c1386a74140d98'
+    friendly_name: TV Corner
+  '0x804b50fffe432925':
+    friendly_name: Kitchen Sink
+  '0x804b50fffeb2185b':
+    friendly_name: Kitchen Corner
+    state_action: false
+  '0x84fd27fffe543ac3':
+    friendly_name: Laundry
+  '0xa4c138ca3309c102':
+    friendly_name: Middle Sofa
+  '0xa4c13803036da751':
+    friendly_name: Big Lamp
+  '0xa4c1387509370cec':
+    friendly_name: Snug Lamp
+  '0x0c4314fffefdba1d':
+    friendly_name: Kitchen Counter Switch
+  '0x00158d00051e8412':
+    friendly_name: Laundry Motion
+groups:
+  '1':
+    friendly_name: Kitchen Counter
+    devices:
+      - 0x804b50fffeb2185b/1
+      - 0x804b50fffe432925/1
+      - 0x84fd27fffe543ac3/1
+device_options:
+  legacy: false
