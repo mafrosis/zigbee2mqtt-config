@@ -4,12 +4,17 @@ version: '3'
 volumes:
   zigbee2mqtt-data: {}
 
+networks:
+  caddy:
+    external: true
+
 services:
   zigbee2mqtt:
     image: koenkk/zigbee2mqtt
     restart: unless-stopped
-    ports:
-      - 8787:8080
+    networks:
+      - default
+      - caddy
     extra_hosts:
       locke: 192.168.1.198
       zigstargw: 192.168.1.241
@@ -19,3 +24,8 @@ services:
       - zigbee2mqtt-data:/app/data
       - /run/udev:/run/udev:ro
       - ./zigbee2mqtt.yaml:/app/data/configuration.yaml
+    labels:
+      caddy: zigbee2mqtt.mafro.net
+      caddy.tls.ca: https://ca.mafro.net:4433/acme/acme/directory
+      caddy.tls.ca_root: /root/step_ca.crt
+      caddy.reverse_proxy: "{{upstreams 8080}}"
