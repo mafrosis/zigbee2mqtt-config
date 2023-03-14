@@ -10,11 +10,11 @@ services:
     restart: unless-stopped
     ports:
       - 8787:8080
+    extra_hosts:
+      locke: 192.168.1.198
+      zigstargw: 192.168.1.241
     environment:
       - TZ=Australia/Melbourne
-    devices:
-      - /dev/ttyAMA0
-      - /dev/ttyS0
     volumes:
       - zigbee2mqtt-data:/app/data
       - /run/udev:/run/udev:ro
