@@ -58,6 +58,10 @@ devices:
     friendly_name: Kitchen Counter Switch
   '0x00158d00051e8412':
     friendly_name: Laundry Motion
+  '0xa4c1387e76a5d34d':
+    friendly_name: Madeleine Bedroom
+  '0xa4c1386293327df7':
+    friendly_name: Office Lamp
 groups:
   '1':
     friendly_name: Kitchen Counter
