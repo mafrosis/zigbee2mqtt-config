@@ -10,7 +10,7 @@ networks:
 
 services:
   zigbee2mqtt:
-    image: koenkk/zigbee2mqtt
+    image: koenkk/zigbee2mqtt:${ZIGBEE2MQTT_VERSION}
     restart: unless-stopped
     networks:
       - default
