@@ -54,14 +54,23 @@ devices:
     friendly_name: Big Lamp
   '0xa4c1387509370cec':
     friendly_name: Snug Lamp
-  '0x0c4314fffefdba1d':
-    friendly_name: Kitchen Counter Switch
   '0x00158d00051e8412':
     friendly_name: Laundry Motion
   '0xa4c1387e76a5d34d':
     friendly_name: Madeleine Bedroom
   '0xa4c1386293327df7':
     friendly_name: Office Lamp
+  '0xf4b3b1fffe9b89e3':
+    friendly_name: Kitchen Counter Switch
+    legacy: false
+  '0x0c4314fffefdba1d':
+    friendly_name: Office Switch
+  '0x2c1165fffebaa483':
+    friendly_name: Repeater
+  '0xa49e69fffef0ff2d':
+    friendly_name: Madeleine Door Switch
+  '0xf4b3b1fffe8820bb':
+    friendly_name: Madeleine Bed Switch
 groups:
   '1':
     friendly_name: Kitchen Counter
