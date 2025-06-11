@@ -62,27 +62,34 @@ devices:
     friendly_name: Laundry
   '0xa4c138ca3309c102':
     friendly_name: Middle Sofa
-  '0xa4c13803036da751':
-    friendly_name: Big Lamp
   '0xa4c1387509370cec':
     friendly_name: Snug Lamp
-  '0x00158d00051e8412':
-    friendly_name: Laundry Motion
-  '0xa4c1387e76a5d34d':
-    friendly_name: Madeleine Bedroom
   '0xa4c1386293327df7':
     friendly_name: Office Lamp
   '0xf4b3b1fffe9b89e3':
     friendly_name: Kitchen Counter Switch
-    legacy: false
-  '0x0c4314fffefdba1d':
-    friendly_name: Office Switch
   '0x2c1165fffebaa483':
     friendly_name: Repeater
+  '0xa4c1387e76a5d34d':
+    friendly_name: Big Lamp
+  '0xa4c138b2b03ba312':
+    friendly_name: Madeleine Bedroom
+  '0x001788010df600a9':
+    friendly_name: Hallway Sensor
+  '0x001788010df5feef':
+    friendly_name: Living Room Sensor
   '0xa49e69fffef0ff2d':
     friendly_name: Madeleine Door Switch
   '0xf4b3b1fffe8820bb':
     friendly_name: Madeleine Bed Switch
+  '0x00158d00051e8412':
+    friendly_name: Bathroom Sensor
+  '0x6c5cb1fffe0cdbe4':
+    friendly_name: Upstairs Office Switch
+  '0x0c4314fffefdba1d':
+    friendly_name: Upstairs Bedside Switch
+  '0xa4c13838020a4f9b':
+    friendly_name: Laundry Sensor
 groups:
   '1':
     friendly_name: Kitchen Counter
