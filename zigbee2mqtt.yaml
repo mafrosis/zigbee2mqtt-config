@@ -4,6 +4,7 @@ mqtt:
   server: mqtt://locke
 serial:
   port: tcp://zigstargw:6638
+  adapter: zstack
 frontend:
   port: 8080
 advanced:
@@ -36,6 +37,7 @@ advanced:
     - 119
     - 188
   homeassistant_legacy_entity_attributes: false
+  homeassistant_legacy_triggers: false
   legacy_api: false
   legacy_availability_payload: false
   log_syslog:
@@ -50,6 +52,8 @@ advanced:
     type: '5424'
   cache_state_persistent: true
   cache_state_send_on_startup: true
+device_options:
+  legacy: false
 devices:
   '0xa4c1386a74140d98':
     friendly_name: TV Corner
@@ -97,5 +101,3 @@ groups:
       - 0x804b50fffeb2185b/1
       - 0x804b50fffe432925/1
       - 0x84fd27fffe543ac3/1
-device_options:
-  legacy: false
