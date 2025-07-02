@@ -7,7 +7,7 @@ networks:
     external: true
 
 services:
-  zigbee2mqtt:
+  z2m:
     image: koenkk/zigbee2mqtt:${ZIGBEE2MQTT_VERSION}
     restart: unless-stopped
     networks:
