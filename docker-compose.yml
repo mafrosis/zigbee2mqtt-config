@@ -1,6 +1,8 @@
 ---
 volumes:
-  zigbee2mqtt-data: {}
+  zigbee2mqtt-data:
+    labels:
+      net.mafro.kopia: true
 
 networks:
   caddy:
